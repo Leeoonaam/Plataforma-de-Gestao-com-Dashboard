@@ -1,0 +1,428 @@
+﻿<!DOCTYPE html>
+<html style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>:: STT - GAT Link ::</title>
+
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <meta name="description" content="STT GAT Link">
+    <meta name="keywords" content="admin,dashboard,stt">
+    <meta name="author" content="sergiolourenco">
+
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="files/css" rel="stylesheet" type="text/css">
+    <link href="files/pace-theme-flash.css" rel="stylesheet">
+    <link href="files/uniform.default.min.css" rel="stylesheet">
+
+    <link href="files/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./weather-icons-master/css/weather-icons.min.css" rel="stylesheet" type="text/css">
+    <link href="./simple-line-icons-master/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+
+    <link href="files/font-awesome.css" rel="stylesheet" type="text/css">
+
+    <link href="files/menu_cornerbox.css" rel="stylesheet" type="text/css">
+    <link href="files/waves.min.css" rel="stylesheet" type="text/css">
+    <link href="files/switchery.min.css" rel="stylesheet" type="text/css">
+    <link href="files/style.css" rel="stylesheet" type="text/css">
+    <link href="files/component.css" rel="stylesheet" type="text/css">
+    <link href="files/MetroJs.min.css" rel="stylesheet" type="text/css">
+    <link href="files/toastr.min.css" rel="stylesheet" type="text/css">
+    <link href="files/modern.min.css" rel="stylesheet" type="text/css">
+    <link href="files/green.css" class="theme-color" rel="stylesheet" type="text/css">
+    <link href="files/custom.css" rel="stylesheet" type="text/css">
+
+    <script src="files/modernizr.js.download"></script>
+    <script src="files/snap.svg-min.js.download"></script>
+
+
+
+</head>
+<body class="page-header-fixed  pace-done">
+
+    <!-- Barra de Progresso -->
+    <div class="pace  pace-inactive">
+        <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+            <div class="pace-progress-inner"></div>
+        </div>
+        <div class="pace-activity"></div>
+    </div>
+
+    <div class="overlay"></div>
+
+
+    <!-- BUSCA -->
+    <form class="search-form" action="http://steelcoders.com/modern/admin1/#" method="GET">
+        <div class="input-group">
+            <input type="text" name="search" class="form-control search-input" placeholder="Search...">
+            <span class="input-group-btn">
+                <button class="btn btn-default close-search waves-effect waves-button waves-classic" type="button"><i class="fa fa-times"></i></button>
+            </span>
+        </div>
+    </form>
+
+
+    <!-- BARRA DE MENU SUPERIOR --TOP -->
+    <main class="page-content content-wrap">
+        <div class="navbar">
+            <div class="navbar-inner">
+
+                <div class="sidebar-pusher">
+                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic push-sidebar">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+
+                <!-- GAT LINK -->
+                <div class="logo-box">
+                    <a href="http://steelcoders.com/modern/admin1/index.html" class="logo-text"><span>GAT Link</span></a>
+                </div>
+
+                <!-- BOTAO DE BUSCA -->
+                <div class="search-button">
+                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
+                </div>
+
+            </div>
+        </div><!-- Navbar -->
+        <!-- MENU ESQUERDA -  -->
+        <div class="page-sidebar sidebar">
+            <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 100%;">
+                <div class="page-sidebar-inner slimscroll" style="overflow: hidden; width: auto; height: 100%;">
+
+                    <!-- CABECALHO MENU LATERAL -->
+                    <div class="sidebar-header">
+                        <div class="sidebar-profile">
+                            <!--<a href="javascript:void(0);" id="profile-menu-link">-->
+                            <div class="sidebar-profile-image">
+                                <img src="files/profile-menu-image.png" class="img-circle img-responsive" alt="">
+                            </div>
+                            <div class="sidebar-profile-details">
+                                <span>Front End<br><small>Brasil Center - Claro</small></span>
+                            </div>
+                            <!--</a>-->
+                        </div>
+                    </div>
+
+                    <!-- CONFIGURAÇÕES --- DESATIVADO -->
+                    <ul class="menu accordion-menu">
+                        <!-- DASHBOARD -->
+                        <li class="active"><a href="http://steelcoders.com/modern/admin1/index.html" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-home"></span><p>Home</p></a></li>
+
+                        <!-- PROFILE -->
+                        <li><a href="http://steelcoders.com/modern/admin1/profile.html" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-user"></span><p>Login</p></a></li>
+
+
+                        <!-- MAIL BOX - SUB MENUS -->
+                        <li class="droplink">
+                            <a href="http://steelcoders.com/modern/admin1/#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-envelope"></span><p>Mailbox</p><span class="arrow"></span></a>
+                            <ul class="sub-menu" style="display: none;">
+                                <li><a href="http://steelcoders.com/modern/admin1/inbox.html">Inbox</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/inbox-alt.html">Inbox Alt</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/message-view.html">View Message</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/message-view-alt.html">View Message Alt</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/compose.html">Compose</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/compose-alt.html">Compose Alt</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- SUB MENU 2 -->
+                        <li class="droplink">
+                            <a href="http://steelcoders.com/modern/admin1/#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-briefcase"></span><p>UI Kits</p><span class="arrow"></span></a>
+                            <ul class="sub-menu" style="display: none;">
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-alerts.html">Alerts</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-buttons.html">Buttons</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-icons.html">Icons</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-typography.html">Typography</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-notifications.html">Notifications</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-grid.html">Grid</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-tabs-accordions.html">Tabs &amp; Accordions</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-modals.html">Modals</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-panels.html">Panels</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-progress.html">Progress Bars</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-sliders.html">Sliders</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-nestable.html">Nestable</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/ui-tree-view.html">Tree View</a></li>
+                            </ul>
+                        </li>
+                        <!-- SUB MENU 3 -->
+                        <li class="droplink">
+                            <a href="http://steelcoders.com/modern/admin1/#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-th"></span><p>Layouts</p><span class="arrow"></span></a>
+                            <ul class="sub-menu" style="display: none;">
+                                <li><a href="http://steelcoders.com/modern/admin1/layout-blank.html">Blank Page</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/layout-boxed.html">Boxed Page</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/layout-horizontal-menu.html">Horizontal Menu</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/layout-horizontal-menu-boxed.html">Boxed &amp; Horizontal Menu</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/layout-horizontal-menu-minimal.html">Horizontal Menu Minimal</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/layout-fixed-sidebar.html">Fixed Sidebar</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/layout-static-header.html">Static Header</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/layout-collapsed-sidebar.html">Collapsed Sidebar</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/layout-compact-menu.html">Compact Menu</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/layout-hover-menu.html">Hover Menu</a></li>
+                            </ul>
+                        </li>
+                        <!-- SUB MENU 4 -->
+                        <li class="droplink">
+                            <a href="http://steelcoders.com/modern/admin1/#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-list"></span><p>Tables</p><span class="arrow"></span></a>
+                            <ul class="sub-menu" style="display: none;">
+                                <li><a href="http://steelcoders.com/modern/admin1/table-static.html">Static Tables</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/table-responsive.html">Responsive Tables</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/table-data.html">Data Tables</a></li>
+                            </ul>
+                        </li>
+                        <!-- SUB MENU 5 -->
+                        <li class="droplink">
+                            <a href="http://steelcoders.com/modern/admin1/#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-edit"></span><p>Forms</p><span class="arrow"></span></a>
+                            <ul class="sub-menu" style="display: none;">
+                                <li><a href="http://steelcoders.com/modern/admin1/form-elements.html">Form Elements</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/form-wizard.html">Form Wizard</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/form-upload.html">File Upload</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/form-image-crop.html">Image Crop</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/form-image-zoom.html">Image Zoom</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/form-select2.html">Select2</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/form-x-editable.html">X-editable</a></li>
+                            </ul>
+                        </li>
+                        <!-- SUB MENU 6 -->
+                        <li class="droplink">
+                            <a href="http://steelcoders.com/modern/admin1/#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-stats"></span><p>Charts</p><span class="arrow"></span></a>
+                            <ul class="sub-menu" style="display: none;">
+                                <li><a href="http://steelcoders.com/modern/admin1/charts-sparkline.html">Sparkline</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/charts-rickshaw.html">Rickshaw</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/charts-morris.html">Morris</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/charts-flotchart.html">Flotchart</a></li>
+                                <li><a href="http://steelcoders.com/modern/admin1/charts-chartjs.html">Chart.js</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div><div class="slimScrollBar" style="background: rgb(204, 204, 204); width: 7px; position: absolute; top: 0px; opacity: 0.3; display: none; border-radius: 0px; z-index: 99; right: 0px; height: 1080px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 0px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 0px;"></div>
+            </div><!-- Page Sidebar Inner -->
+        </div><!-- Page Sidebar -->
+        <!-- CONTEUDO ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+        <div class="page-inner" style="min-height:1080px !important">
+            <!-- TITULO DA PAGINA -->
+            <div class="page-title">
+                <h3>Menu </h3>
+                <div class="page-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li class="active">Menu Principal</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- CORPO -->
+            <div id="main-wrapper">
+
+                <!-- BLOCOS GERENCIAS -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <table width="100%">
+
+                            <tr>
+                                <td>
+                                    <div class="panel info-box panel-white">
+                                        <div class="panel-body">
+
+                                            <div class="info-box-stats">
+
+                                                <p>
+                                                    <i class="icon-basket"></i> Login
+
+                                                </p>
+                                                <span class="info-box-title">Iniciar Jornada</span>
+                                            </div>
+
+
+
+                                            <div class="info-box-progress">
+                                                <div class="progress progress-xs progress-squared bs-n">
+                                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td width="20px">&nbsp;</td>
+                                <td>
+                                    <div class="panel info-box panel-white">
+                                        <div class="panel-body">
+
+                                            <div class="info-box-stats">
+
+                                                <p>
+                                                    <i class="icon-basket"></i> Logout
+
+                                                </p>
+                                                <span class="info-box-title">Fim Jornada</span>
+                                            </div>
+
+
+
+                                            <div class="info-box-progress">
+                                                <div class="progress progress-xs progress-squared bs-n">
+                                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="panel info-box panel-white">
+                                        <div class="panel-body">
+
+                                            <div class="info-box-stats">
+
+                                                <p>
+                                                    <i class="icon-basket"></i> Check-In
+
+                                                </p>
+                                                <span class="info-box-title">Iniciar Jornada</span>
+                                            </div>
+
+
+
+                                            <div class="info-box-progress">
+                                                <div class="progress progress-xs progress-squared bs-n">
+                                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </td>
+                                <td width="20px">&nbsp;</td>
+                                <td>
+                                    <div class="panel info-box panel-white">
+                                        <div class="panel-body">
+
+                                            <div class="info-box-stats">
+
+                                                <p><i class="icon-basket"></i> Check-Out 
+                                                   
+                                                </p>
+                                                <span class="info-box-title">Iniciar Jornada</span>
+                                            </div>
+
+                                            
+
+                                            <div class="info-box-progress">
+                                                <div class="progress progress-xs progress-squared bs-n">
+                                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+
+                </div>
+
+
+                <div class="row">
+                    <!-- BLOCO 3 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel info-box panel-white">
+                            <div class="panel-body">
+                                <div class="info-box-stats">
+                                    <p>$<span class="counter">653,000</span></p>
+                                    <span class="info-box-title">Monthly revenue goal</span>
+                                </div>
+                                <div class="info-box-icon">
+                                    <i class="icon-basket"></i>
+                                </div>
+                                <div class="info-box-progress">
+                                    <div class="progress progress-xs progress-squared bs-n">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BLOCO 4 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel info-box panel-white">
+                            <div class="panel-body">
+                                <div class="info-box-stats">
+                                    <p class="counter">47,500</p>
+                                    <span class="info-box-title">New emails recieved</span>
+                                </div>
+                                <div class="info-box-icon">
+                                    <i class="icon-envelope"></i>
+                                </div>
+                                <div class="info-box-progress">
+                                    <div class="progress progress-xs progress-squared bs-n">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Row -->
+
+
+            </div><!-- Main Wrapper -->
+            <!-- RODAPE -->
+            <div class="page-footer">
+                <p class="no-s">2020 © STT GAT Link -  for World Class Solutions</p>
+            </div>
+        </div><!-- Page Inner -->
+    </main>
+
+
+
+    <div class="cd-overlay"></div>
+
+
+    <!-- Javascripts -->
+    <script src="files/jquery-2.1.4.min.js"></script>
+    <script src="files/jquery-ui.min.js"></script>
+    <script src="files/pace.min.js"></script>
+    <script src="files/jquery.blockui.js"></script>
+    <script src="files/bootstrap.min.js"></script>
+    <script src="files/jquery.slimscroll.min.js"></script>
+    <script src="files/switchery.min.js"></script>
+    <script src="files/jquery.uniform.min.js"></script>
+    <script src="files/classie.js"></script>
+    <script src="files/main.js"></script>
+    <script src="files/waves.min.js"></script>
+    <script src="files/main2.js"></script>
+    <script src="files/jquery.waypoints.min.js"></script>
+    <script src="files/jquery.counterup.min.js"></script>
+    <script src="files/toastr.min.js"></script>
+    <script src="files/jquery.flot.min.js"></script>
+    <script src="files/jquery.flot.time.min.js"></script>
+    <script src="files/jquery.flot.symbol.min.js"></script>
+    <script src="files/jquery.flot.resize.min.js"></script>
+    <script src="files/jquery.flot.tooltip.min.js"></script>
+    <script src="files/curvedLines.js"></script>
+    <script src="files/MetroJs.min.js"></script>
+    <script src="files/modern.js"></script>
+    <script src="files/dashboard.js"></script>
+
+    <div id="flotTip" style="display: none; position: absolute;"></div>
+
+</body>
+</html>

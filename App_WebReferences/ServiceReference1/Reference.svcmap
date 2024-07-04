@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="57e72452-5d40-4aa7-9525-a0e758cf819f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://www.gatlink.com.br/wsbccgeo/WS_BCC_Autenticacao_Usuario.asmx" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WS_BCC_Autenticacao_Usuario.wsdl" MetadataType="Wsdl" ID="88efe89a-7b9d-4e5c-a866-7056b272a780" SourceId="1" SourceUrl="http://www.gatlink.com.br/wsbccgeo/WS_BCC_Autenticacao_Usuario.asmx?wsdl" />
+    <MetadataFile FileName="WS_BCC_Autenticacao_Usuario.disco" MetadataType="Disco" ID="c599b364-59ad-45d6-bbb7-80778ad49595" SourceId="1" SourceUrl="http://www.gatlink.com.br/wsbccgeo/WS_BCC_Autenticacao_Usuario.asmx?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
